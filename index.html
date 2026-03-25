@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Survival Predictor</title>
+</head>
+<body>
+
+    <h2>Titanic Survival Prediction</h2>
+
+    <form action="/predict" method="post">
+
+        <label>Pclass:</label>
+        <input type="number" name="Pclass"><br><br>
+
+        <label>Sex (0 = Female, 1 = Male):</label>
+        <input type="number" name="Sex"><br><br>
+
+        <label>Age:</label>
+        <input type="number" step="any" name="Age"><br><br>
+
+        <label>SibSp:</label>
+        <input type="number" name="SibSp"><br><br>
+
+        <label>Parch:</label>
+        <input type="number" name="Parch"><br><br>
+
+        <label>Fare:</label>
+        <input type="number" step="any" name="Fare"><br><br>
+
+        <label>Embarked (0/1/2):</label>
+        <input type="number" name="Embarked"><br><br>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+    {% if result %}
+        <h3>Result: {{ result }}</h3>
+    {% endif %}
+
+</body>
+</html>
