@@ -36,5 +36,8 @@ Given features such as age, sex, class, etc., predict whether a passenger surviv
 - Add GUI using Streamlit
 - Deploy on web using Flask or FastAPI
 
-## 🧠 Author
-Your Name
+##Output
+<img width="947" height="723" alt="image" src="https://github.com/user-attachments/assets/a8d3ce88-20c6-4374-9526-be411f7a7108" />
+<img width="418" height="66" alt="image" src="https://github.com/user-attachments/assets/7ab11732-448b-4b57-bea9-332f10536d44" />
+
+
